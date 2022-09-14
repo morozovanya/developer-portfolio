@@ -28,12 +28,16 @@ h2 {
 
 h3 {
   font-size: 53px;
-  font-weight: 200;
-  margin-top: 120px;
-  color: white;
-  text-align: right;
-  padding-right: 10px;
-  opacity: 30%;
+  color:rgb(52, 51, 51);
+  font-weight: 500;
+  margin: 70px 0 40px 0;
+  text-align: center;
+  padding-right: 15px;
+}
+
+h3:hover {
+  color:white;
+  transition:all 0.3s ease-in-out;
 }
 
 .homelink:hover {
@@ -155,14 +159,14 @@ h3 {
 .homepage-images {
   display: flex;
   justify-content: space-evenly;
-  
 }
+
 
 .homepage-section {
   background: #1e1e1e;
   display:block;
   box-sizing: border-box;
-  margin: 80px 30px;
+  margin: 90px 30px;
   border-radius: 10px;
   padding-bottom: 30px;
   text-align: center;
@@ -196,9 +200,6 @@ p {
   h3 {
     margin-top: 10px;
     font-size: 46px;
-    text-align: right;
-    opacity: 30%;
-    font-weight: lighter;
   }
   .homepage-images {
     margin-bottom: 50px;
@@ -230,9 +231,6 @@ p {
 h3 {
     margin-top: 10px;
     font-size: 26px;
-    text-align: right;
-    opacity: 30%;
-    font-weight: lighter;
   }
   .homepage-images {
     margin-bottom: 30px;
@@ -240,6 +238,34 @@ h3 {
   }
 
   @media (max-width: 764px) {
+
+    footer .contact-box {
+  padding: 30px !important;
+  font-size: 10px !important;
+ }
+
+ footer .contact-box h4 {
+  font-size: 26px !important;
+ }
+
+ footer a {
+  font-size: 15px !important;
+ }
+
+ footer .social-links {
+  margin-top: 22px !important;
+ }
+
+ footer .social-links a {
+    margin:0 10px !important;
+  }
+
+  .footer-button {
+    padding: 12px !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+  }
+
     #header {
       display:inline-flexbox;
       margin:0;
@@ -261,9 +287,7 @@ width:max-content;
   margin-top: 0;
 }
 h3 {
-  font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
+  font-size: 26px;
 }
 .footer {
   font-size: small;
@@ -305,6 +329,11 @@ nav li {
     .about-section-content {
       margin: 70px 0px !important;
     }
+
+    footer .contact-box h4 {
+  font-size: 16px !important;
+ }
+
     h1.h1-about {
       font-size: 46px !important;
     }
@@ -413,7 +442,7 @@ nav li {
 
   nav a {
     text-decoration: none;
-    transition:all 0.6s ease-in-out;
+    transition:all 0.3s ease-in-out;
     color: #1e1e1e;
     background: linear-gradient(to right, rgb(89, 250, 83) 0%,rgb(58, 222, 251) 98%);
 		background-size:0px 2px;
@@ -424,7 +453,7 @@ nav li {
 
   nav a.a-purple {
     text-decoration: none;
-    transition:all 0.6s ease-in-out;
+    transition:all 0.3s ease-in-out;
     color: #1e1e1e;
     background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
 		background-size:0px 2px;
@@ -458,8 +487,74 @@ nav li {
     background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
     -webkit-background-clip: text;
     color:transparent;
+    transition:all 0.3s ease-in-out;
   }
 
+  footer {
+    margin: 50px 0;
+  }
+
+  footer .email-link {
+    text-decoration:none;
+    color:#1e1e1e ;
+    font-size: 53px;
+    font-weight: 200;
+  }
+
+  footer .email-link:hover {
+    background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
+    -webkit-background-clip: text;
+    color:transparent;
+    transition:all 0.3s ease-in-out;
+  }
+
+  footer .social-links {
+    margin-top: 50px;
+  }
+
+  footer .social-links a {
+    margin:0 37px;
+    color: #1e1e1e;
+    font-size: 42px;
+  }
+
+  footer .social-links a:hover {
+    background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
+    -webkit-background-clip: text;
+    color:transparent;
+    transition:all 0.3s ease-in-out;
+  }
+
+  footer .contact-box {
+    background: #1e1e1e;
+    color: aliceblue;
+    display:block;
+  box-sizing: border-box;
+  margin: 90px 30px;
+  border-radius: 10px;
+  padding: 60px 160px;
+  box-shadow: rgb(52, 52, 255) 0px 4px 16px, rgba(167, 80, 255, 0.985) 0px 8px 24px, rgb(228, 51, 252) 0px 16px 56px;
+  }
+
+  footer .contact-box h4 {
+    font-size: 53px;
+  }
+
+  .footer-button {
+  padding: 1em 4em;
+  width: max-content;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#1e1e1e;
+  background: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 13px;
+  
+  }
+
+
+
+  
 
  
  

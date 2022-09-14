@@ -237,7 +237,7 @@ h3 {
 
       .button-85 {
         margin-top: 20px;
-  padding: 1em 8em;
+  padding: 1em 4em;
 text-align: center;
 width:max-content;
 }
@@ -267,17 +267,36 @@ h3 {
 .portfolio-container {
   text-align: center;
   padding: 60px 20px !important;
-  width: 90%;
+  width: 80%;
 }
 
 .projects-grid p {
   margin-bottom: 60px !important;
 }
+
+.logo {
+  font-size: 18px !important;
+}
+
+nav ul {
+  padding: 1px 0 !important;
+}
+
+nav li {
+    font-size: 18px !important;
+    margin-left: 6px !important;
+  }
   }
 
   @media (max-width: 456px) {
+    .about-section-content {
+      margin: 70px 0px !important;
+    }
+    h1.h1-about {
+      font-size: 46px !important;
+    }
     h3{
-      font-size: 18px;
+      font-size: 18px !important;
     }
     .footer {
       font-size: xx-small;
@@ -285,6 +304,19 @@ h3 {
     .homepage-welcome {
       text-align: center;
     }
+    .logo {
+  font-size: 15px !important;
+}
+
+nav ul {
+  padding: 0 !important;
+}
+
+nav li {
+    font-size: 15px !important;
+    margin-left: 4px !important;
+  }
+
   }
 
   
@@ -295,8 +327,6 @@ h3 {
 
   .about-section {
   margin: 80px auto;
-  padding-right: 15px;
-  padding-left:60px;
   background: #cdcdcd;
   display:block;
   box-sizing: border-box;
@@ -349,5 +379,74 @@ h3 {
     margin-top: 30px;
   }
 
+  nav {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
 
+  nav ul {
+    padding: 7px 0;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 10px;
+    font-size: 24px;
+    margin-left: 16px;
+  }
+
+  nav a {
+    text-decoration: none;
+    transition:all 0.6s ease-in-out;
+    color: #1e1e1e;
+    background: linear-gradient(to right, rgb(89, 250, 83) 0%,rgb(58, 222, 251) 98%);
+		background-size:0px 2px;
+		background-repeat: no-repeat;
+		background-position:left 85%;
+		text-shadow:0;
+  }
+
+  nav a.a-purple {
+    text-decoration: none;
+    transition:all 0.6s ease-in-out;
+    color: #1e1e1e;
+    background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
+		background-size:0px 2px;
+		background-repeat: no-repeat;
+		background-position:left 85%;
+		text-shadow:0;
+  }
+
+  nav a:hover,
+  nav li.active a {
+    text-decoration: none;
+    color:#202020;
+    background-size:100% 2px;
+  }
+
+
+  .logo {
+    font-size: 24px;
+    color: #1e1e1e;
+    font-weight: 500;
+  }
+
+
+  .logo:hover {
+    background: linear-gradient(to right, rgb(45, 215, 39) 0%,rgb(58, 222, 251) 98%);
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+
+  #logo-purple:hover {
+    background: linear-gradient(to right, rgb(108, 83, 250) 0%,rgb(171, 58, 251) 98%);
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+
+
+ 
  

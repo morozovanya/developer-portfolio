@@ -536,6 +536,12 @@ nav li {
   box-shadow: rgb(52, 52, 255) 0px 4px 16px, rgba(167, 80, 255, 0.985) 0px 8px 24px, rgb(228, 51, 252) 0px 16px 56px;
   }
 
+  footer .inquiry-form-shorted {
+    margin: 90px 149.5px;
+  border-radius: 10px;
+  padding: 60px 90px;
+  }
+
   footer .contact-box h4 {
     font-size: 53px;
   }
@@ -549,7 +555,6 @@ nav li {
   cursor: pointer;
   margin-top: 15px;
   border-radius: 13px;
-  
   }
 
 
